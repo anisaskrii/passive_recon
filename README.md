@@ -236,52 +236,9 @@ WhatWeb fingerprinting
 Security header analysis
 ```
 
-## Notes
-
-Subdomain discovery and DNS resolution are separated.
-
-A subdomain may appear in passive sources while failing DNS resolution because it is:
-
-* historical
-* internal-only
-* deprecated
-* no longer reachable
-
-Technology fingerprinting is inference-based and depends on externally observable indicators such as:
-
-* HTTP headers
-* HTML metadata
-* JavaScript paths
-* cookies
-* favicon fingerprints
-
-Some technologies may be hidden behind:
-
-* CDNs
-* reverse proxies
-* WAFs
-* frontend frameworks
-
-Shodan InternetDB findings and NVD mappings are informational candidate findings only.
-
-They do not confirm:
-
-* exploitability
-* successful verification
-* vulnerability presence
-
-Version-based CVE enrichment depends on extracted product/version strings and may contain false positives or incomplete mappings.
-
 ## Recommended Production Usage
 
-Default production mode:
 
-```text
-Passive collection only
-Raw collector data disabled
-Filtered URL intelligence
-Low-noise enrichment
-```
 
 Recommended API usage:
 
