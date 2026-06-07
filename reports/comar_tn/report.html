@@ -1,0 +1,837 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head><meta charset="UTF-8"><title>Recon Report - comar.tn</title><style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f8f9fb; color: #111827; }
+    section { background: white; border: 1px solid #e5e7eb; border-radius: 10px; padding: 18px; margin-bottom: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    td { border: 1px solid #e5e7eb; padding: 8px; vertical-align: top; }
+    pre { white-space: pre-wrap; word-break: break-word; }
+    .note { background: #fff7ed; border: 1px solid #fed7aa; padding: 12px; border-radius: 8px; }
+    </style></head>
+    <body>
+      <h1>Recon Report: comar.tn</h1>
+      <div class="note">
+        Passive/OSINT sources: RDAP, raw WHOIS fallback, DNS, Hunter.io, crt.sh, HackerTarget, URLScan, Wayback, Common Crawl, AlienVault OTX, IP RDAP, and Shodan InternetDB.
+        Optional active checks: httpx, WhatWeb, and security headers. NVD output is candidate matching, not confirmation.
+      </div>
+      <section><h2>Summary</h2><table>
+        <tr>
+          <td>domain</td>
+          <td><pre>"comar.tn"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>generated_at</td>
+          <td><pre>"2026-06-05T22:54:24.445818+00:00"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>subdomains</td>
+          <td><pre>2</pre></td>
+        </tr>
+        
+        <tr>
+          <td>resolved_ips</td>
+          <td><pre>1</pre></td>
+        </tr>
+        
+        <tr>
+          <td>hunter_emails</td>
+          <td><pre>0</pre></td>
+        </tr>
+        
+        <tr>
+          <td>url_corpus</td>
+          <td><pre>5</pre></td>
+        </tr>
+        
+        <tr>
+          <td>documents</td>
+          <td><pre>0</pre></td>
+        </tr>
+        
+        <tr>
+          <td>javascript_files</td>
+          <td><pre>0</pre></td>
+        </tr>
+        
+        <tr>
+          <td>risk_findings</td>
+          <td><pre>25</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Domain Registration</h2><table>
+        <tr>
+          <td>source</td>
+          <td><pre>"raw_whois_fallback"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>rdap_error</td>
+          <td><pre>{
+  "source": "domain_rdap",
+  "error": "not_found"
+}</pre></td>
+        </tr>
+        
+        <tr>
+          <td>raw_whois</td>
+          <td><pre>{
+  "source": "raw_whois",
+  "server": "whois.ati.tn",
+  "raw": "NIC Whois server for cTLDs : .tn , .تونس\nAll rights reserved\nCopyright \"Tunisian Internet Agency - https://whois.ati.tn\nSupported ccTLDs : .tn , .تونس\nSectorial domains : .com.tn,.ens.tn,.fin.tn,.gov.tn,.ind.tn,.intl.tn,.nat.tn,.net.tn,.org.tn,.info.tn,.perso.tn,.tourism.tn,.mincom.tn\n\nDomain name.........: comar.tn\nDetails:\nCreation date.......: 08-09-2009 00:00:00 GMT+1\nDomain status.......: Active\nRegistrar...........: ORANGE TUNISIE\n\nOwner Contact\nName................: COMAR\nFirst name..........: \nAddress.............: IMM COMAR AV BOURGUIBA\r\n1001 TUNIS\naddress2............: \nCity................: \nstateProvince.......: \nZip code............: \nCountry.............: \nPhone...............: 71331238\nFax.................: 71255469\nEmail...............: zied.bouattour@comar.com.tn\n\nAdministrativ contact\nName................: COMAR\nFirst name..........: \nAddress.............: IMM COMAR AV BOURGUIBA\r\n1001 TUNIS\naddress2............: \nCity................: \nstateProvince.......: \nZip code............: \nCountry.............: \nPhone...............: 71331238\nFax.................: 71255469\nEmail...............: zied.bouattour@comar.com.tn\n\nTechnical contact\nName................: COMAR\nFirst name..........: \nAddress.............: IMM COMAR AV BOURGUIBA\r\n1001 TUNIS\naddress2............: \nCity................: \nstateProvince.......: \nZip code............: \nCountry.............: \nPhone...............: 71331238\nFax.................: 71255469\nEmail...............: zied.bouattour@comar.com.tn\ndnssec..............: unsigned\n\nDNS servers\nName................: ns2.orange.tn.\nName................: ns1.orange.tn.",
+  "structured": {
+    "nic_whois_server_for_ctlds": ".tn , .تونس",
+    "copyright_\"tunisian_internet_agency___https": "//whois.ati.tn",
+    "supported_cctlds": ".tn , .تونس",
+    "sectorial_domains": ".com.tn,.ens.tn,.fin.tn,.gov.tn,.ind.tn,.intl.tn,.nat.tn,.net.tn,.org.tn,.info.tn,.perso.tn,.tourism.tn,.mincom.tn",
+    "domain_name.........": "comar.tn",
+    "details": "",
+    "creation_date.......": "08-09-2009 00:00:00 GMT+1",
+    "domain_status.......": "Active",
+    "registrar...........": "ORANGE TUNISIE",
+    "name................": [
+      "COMAR",
+      "COMAR",
+      "COMAR",
+      "ns2.orange.tn.",
+      "ns1.orange.tn."
+    ],
+    "first_name..........": [
+      "",
+      "",
+      ""
+    ],
+    "address.............": [
+      "IMM COMAR AV BOURGUIBA",
+      "IMM COMAR AV BOURGUIBA",
+      "IMM COMAR AV BOURGUIBA"
+    ],
+    "address2............": [
+      "",
+      "",
+      ""
+    ],
+    "city................": [
+      "",
+      "",
+      ""
+    ],
+    "stateprovince.......": [
+      "",
+      "",
+      ""
+    ],
+    "zip_code............": [
+      "",
+      "",
+      ""
+    ],
+    "country.............": [
+      "",
+      "",
+      ""
+    ],
+    "phone...............": [
+      "71331238",
+      "71331238",
+      "71331238"
+    ],
+    "fax.................": [
+      "71255469",
+      "71255469",
+      "71255469"
+    ],
+    "email...............": [
+      "zied.bouattour@comar.com.tn",
+      "zied.bouattour@comar.com.tn",
+      "zied.bouattour@comar.com.tn"
+    ],
+    "dnssec..............": "unsigned"
+  }
+}</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>DNS</h2><table>
+        <tr>
+          <td>A</td>
+          <td><pre>[
+  "41.228.96.101"
+]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>AAAA</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>NS</td>
+          <td><pre>[
+  "ns2.orange.tn.",
+  "ns1.orange.tn."
+]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>MX</td>
+          <td><pre>[
+  "0 comar-tn.mail.protection.outlook.com."
+]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>TXT</td>
+          <td><pre>[
+  "v=spf1 ip4:41.224.38.182 ip4:41.224.38.180 ip4:41.228.96.101 ip4:197.25.136.65 ip4:197.5.145.142 include:spf.protection.outlook.com -all",
+  "7ANGE894FIA465K0YYDZVSFORLSIWTYBKPL9C10X",
+  "google-site-verification=LrYH7SqPbkYaft1IXjQx39GCpJA0hZCZ_3PEOaamlrM",
+  "MS=ms91937368",
+  "MS=0D5F15C01C82C5DF459AD73558A962E5C97C4502"
+]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>CAA</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>SOA</td>
+          <td><pre>[
+  "ns1.orange.tn. hosting.otn.orange.com. 2025042500 21600 7200 2592000 3456000"
+]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Email Security</h2><table>
+        <tr>
+          <td>spf_found</td>
+          <td><pre>true</pre></td>
+        </tr>
+        
+        <tr>
+          <td>spf_records</td>
+          <td><pre>[
+  "v=spf1 ip4:41.224.38.182 ip4:41.224.38.180 ip4:41.228.96.101 ip4:197.25.136.65 ip4:197.5.145.142 include:spf.protection.outlook.com -all"
+]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>dmarc_found</td>
+          <td><pre>true</pre></td>
+        </tr>
+        
+        <tr>
+          <td>dmarc_records</td>
+          <td><pre>[
+  "v=DMARC1;p=reject;rua=mailto:srs@comar.tn;ruf=mailto:srs@comar.tn;fo=1"
+]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>caa_found</td>
+          <td><pre>false</pre></td>
+        </tr>
+        
+        <tr>
+          <td>caa_records</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Hunter.io</h2><table>
+        <tr>
+          <td>status</td>
+          <td><pre>"skipped"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>reason</td>
+          <td><pre>"Set HUNTER_API_KEY environment variable"</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Subdomains</h2><table>
+        <tr>
+          <td>subdomains</td>
+          <td><pre>[
+  "comar.tn",
+  "www.comar.tn"
+]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>IP Enrichment</h2><table>
+        <tr>
+          <td>source</td>
+          <td><pre>"dns_resolution_plus_ip_rdap_plus_shodan_internetdb"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>subdomains_checked</td>
+          <td><pre>2</pre></td>
+        </tr>
+        
+        <tr>
+          <td>ip_count</td>
+          <td><pre>1</pre></td>
+        </tr>
+        
+        <tr>
+          <td>ips</td>
+          <td><pre>[
+  "41.228.96.101"
+]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>results</td>
+          <td><pre>[
+  {
+    "subdomain": "comar.tn",
+    "resolved": true,
+    "ips": [
+      "41.228.96.101"
+    ],
+    "ip_enrichment": [
+      {
+        "ip": "41.228.96.101",
+        "rdap": {
+          "ip": "41.228.96.101",
+          "asn": "37492",
+          "asn_description": "Orange Tunisie - Orange Tunisie, TN",
+          "asn_country_code": "TN",
+          "network": {
+            "name": "ORG-ATIA2-AFRINIC",
+            "cidr": "41.228.64.0/18",
+            "country": "TN",
+            "start_address": "41.228.64.0",
+            "end_address": "41.228.127.255"
+          }
+        },
+        "shodan_internetdb": {
+          "ip": "41.228.96.101",
+          "found": true,
+          "ports": [
+            80,
+            443
+          ],
+          "cpes": [
+            "cpe:/a:apache:http_server",
+            "cpe:/a:php:php:7.3.33"
+          ],
+          "hostnames": [
+            "comar.tn"
+          ],
+          "vulns": [
+            "CVE-2022-37454",
+            "CVE-2022-31628",
+            "CVE-2022-4900",
+            "CVE-2013-2220",
+            "CVE-2024-25117",
+            "CVE-2017-8923",
+            "CVE-2024-3566",
+            "CVE-2022-31629",
+            "CVE-2007-3205",
+            "CVE-2024-5458"
+          ],
+          "tags": [
+            "eol-product"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "subdomain": "www.comar.tn",
+    "resolved": true,
+    "ips": [
+      "41.228.96.101"
+    ],
+    "ip_enrichment": [
+      {
+        "ip": "41.228.96.101",
+        "rdap": {
+          "ip": "41.228.96.101",
+          "asn": "37492",
+          "asn_description": "Orange Tunisie - Orange Tunisie, TN",
+          "asn_country_code": "TN",
+          "network": {
+            "name": "ORG-ATIA2-AFRINIC",
+            "cidr": "41.228.64.0/18",
+            "country": "TN",
+            "start_address": "41.228.64.0",
+            "end_address": "41.228.127.255"
+          }
+        },
+        "shodan_internetdb": {
+          "ip": "41.228.96.101",
+          "found": true,
+          "ports": [
+            80,
+            443
+          ],
+          "cpes": [
+            "cpe:/a:apache:http_server",
+            "cpe:/a:php:php:7.3.33"
+          ],
+          "hostnames": [
+            "comar.tn"
+          ],
+          "vulns": [
+            "CVE-2022-37454",
+            "CVE-2022-31628",
+            "CVE-2022-4900",
+            "CVE-2013-2220",
+            "CVE-2024-25117",
+            "CVE-2017-8923",
+            "CVE-2024-3566",
+            "CVE-2022-31629",
+            "CVE-2007-3205",
+            "CVE-2024-5458"
+          ],
+          "tags": [
+            "eol-product"
+          ]
+        }
+      }
+    ]
+  }
+]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>URL Corpus</h2><table>
+        <tr>
+          <td>source</td>
+          <td><pre>"merged_url_corpus"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>count</td>
+          <td><pre>5</pre></td>
+        </tr>
+        
+        <tr>
+          <td>urls</td>
+          <td><pre>[
+  {
+    "source": "urlscan",
+    "url": "https://comar.tn/",
+    "mimetype": null,
+    "status": null,
+    "timestamp": "2026-05-28T14:46:07.285Z"
+  },
+  {
+    "source": "alienvault_otx",
+    "url": "http://comar.tn",
+    "mimetype": null,
+    "status": null,
+    "timestamp": "2026-06-04T16:40:58"
+  },
+  {
+    "source": "alienvault_otx",
+    "url": "https://comar.tn",
+    "mimetype": null,
+    "status": null,
+    "timestamp": "2026-06-04T16:40:58"
+  },
+  {
+    "source": "alienvault_otx",
+    "url": "https://www.comar.tn/fr",
+    "mimetype": null,
+    "status": null,
+    "timestamp": "2026-01-10T02:56:58"
+  },
+  {
+    "source": "alienvault_otx",
+    "url": "https://www.comar.tn/particuliers/sinistre/sinistre-automobile",
+    "mimetype": null,
+    "status": null,
+    "timestamp": "2025-11-08T22:37:27"
+  }
+]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>URL Analysis</h2><table>
+        <tr>
+          <td>interesting_urls</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>documents</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        
+        <tr>
+          <td>javascript_files</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Technology - httpx</h2><table>
+        <tr>
+          <td>status</td>
+          <td><pre>"error"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>error</td>
+          <td><pre>"Usage: httpx [OPTIONS] URL\n\nError: No such option '-u'."</pre></td>
+        </tr>
+        
+        <tr>
+          <td>tech</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Technology - WhatWeb</h2><table>
+        <tr>
+          <td>status</td>
+          <td><pre>"error"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>error</td>
+          <td><pre>"usage: whatweb [-h] target\nwhatweb: error: unrecognized arguments: --log-json=- --no-errors"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>tech</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Merged Technology Inventory</h2><table>
+        <tr>
+          <td>source</td>
+          <td><pre>"merged_technology_inventory"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>tech</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Technology CVEs - NVD Candidates</h2><table>
+        <tr>
+          <td>source</td>
+          <td><pre>"nvd"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>mode</td>
+          <td><pre>"keyword_search_candidates_not_confirmed"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>results</td>
+          <td><pre>[]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Security Headers</h2><table>
+        <tr>
+          <td>status</td>
+          <td><pre>"ok"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>mode</td>
+          <td><pre>"active_low_noise"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>final_url</td>
+          <td><pre>"https://comar.tn/"</pre></td>
+        </tr>
+        
+        <tr>
+          <td>headers</td>
+          <td><pre>{
+  "content-security-policy": null,
+  "strict-transport-security": null,
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "referrer-policy": null,
+  "permissions-policy": null
+}</pre></td>
+        </tr>
+        
+        <tr>
+          <td>missing</td>
+          <td><pre>[
+  "content-security-policy",
+  "strict-transport-security",
+  "referrer-policy",
+  "permissions-policy"
+]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Risk Findings</h2><table>
+        <tr>
+          <td>risk_findings</td>
+          <td><pre>[
+  {
+    "severity": "low",
+    "title": "CAA not found",
+    "source": "dns",
+    "evidence": "No CAA record found"
+  },
+  {
+    "severity": "low",
+    "title": "Missing security header: content-security-policy",
+    "source": "http_headers",
+    "evidence": "https://comar.tn/"
+  },
+  {
+    "severity": "low",
+    "title": "Missing security header: strict-transport-security",
+    "source": "http_headers",
+    "evidence": "https://comar.tn/"
+  },
+  {
+    "severity": "low",
+    "title": "Missing security header: referrer-policy",
+    "source": "http_headers",
+    "evidence": "https://comar.tn/"
+  },
+  {
+    "severity": "low",
+    "title": "Missing security header: permissions-policy",
+    "source": "http_headers",
+    "evidence": "https://comar.tn/"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2022-37454",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2022-31628",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2022-4900",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2013-2220",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2024-25117",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2017-8923",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2024-3566",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2022-31629",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2007-3205",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2024-5458",
+    "source": "shodan_internetdb",
+    "evidence": "comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2022-37454",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2022-31628",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2022-4900",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2013-2220",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2024-25117",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2017-8923",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2024-3566",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2022-31629",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2007-3205",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  },
+  {
+    "severity": "high",
+    "title": "Shodan InternetDB vulnerability hint: CVE-2024-5458",
+    "source": "shodan_internetdb",
+    "evidence": "www.comar.tn -&gt; 41.228.96.101"
+  }
+]</pre></td>
+        </tr>
+        </table></section>
+      <section><h2>Raw Sources</h2><table>
+        <tr>
+          <td>crtsh</td>
+          <td><pre>{
+  "source": "crt.sh",
+  "error": "HTTP 502",
+  "subdomains": []
+}</pre></td>
+        </tr>
+        
+        <tr>
+          <td>hackertarget</td>
+          <td><pre>{
+  "source": "hackertarget",
+  "error": "API count exceeded - Increase Quota with Membership",
+  "subdomains": []
+}</pre></td>
+        </tr>
+        
+        <tr>
+          <td>urlscan</td>
+          <td><pre>{
+  "source": "urlscan",
+  "subdomains": [
+    "comar.tn"
+  ],
+  "results": [
+    {
+      "source": "urlscan",
+      "url": "https://comar.tn/",
+      "domain": "comar.tn",
+      "ip": "41.228.96.101",
+      "asn": "AS37492",
+      "server": "Apache",
+      "title": "COMAR Assurances, Compagnie d'assurance Tunisie | Assurances Particulier",
+      "date": "2026-05-28T14:46:07.285Z"
+    }
+  ]
+}</pre></td>
+        </tr>
+        
+        <tr>
+          <td>wayback</td>
+          <td><pre>{
+  "source": "wayback",
+  "urls": []
+}</pre></td>
+        </tr>
+        
+        <tr>
+          <td>commoncrawl</td>
+          <td><pre>{
+  "source": "commoncrawl",
+  "urls": []
+}</pre></td>
+        </tr>
+        
+        <tr>
+          <td>alienvault_otx_urls</td>
+          <td><pre>{
+  "source": "alienvault_otx",
+  "urls": [
+    {
+      "source": "alienvault_otx",
+      "url": "http://comar.tn",
+      "mimetype": null,
+      "status": null,
+      "timestamp": "2026-06-04T16:40:58"
+    },
+    {
+      "source": "alienvault_otx",
+      "url": "https://comar.tn",
+      "mimetype": null,
+      "status": null,
+      "timestamp": "2026-06-04T16:40:58"
+    },
+    {
+      "source": "alienvault_otx",
+      "url": "https://www.comar.tn/fr",
+      "mimetype": null,
+      "status": null,
+      "timestamp": "2026-01-10T02:56:58"
+    },
+    {
+      "source": "alienvault_otx",
+      "url": "https://www.comar.tn/particuliers/sinistre/sinistre-automobile",
+      "mimetype": null,
+      "status": null,
+      "timestamp": "2025-11-08T22:37:27"
+    },
+    {
+      "source": "alienvault_otx",
+      "url": "https://comar.tn/",
+      "mimetype": null,
+      "status": null,
+      "timestamp": "2025-07-18T14:45:08"
+    }
+  ]
+}</pre></td>
+        </tr>
+        
+        <tr>
+          <td>url_corpus_subdomains</td>
+          <td><pre>{
+  "source": "url_corpus_hostname_extraction",
+  "subdomains": [
+    "comar.tn",
+    "www.comar.tn"
+  ]
+}</pre></td>
+        </tr>
+        </table></section>
+    </body>
+    </html>
+    

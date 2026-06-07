@@ -1,0 +1,596 @@
+{
+  "domain": "comar.tn",
+  "generated_at": "2026-06-05T22:54:24.445818+00:00",
+  "whois": {
+    "source": "raw_whois_fallback",
+    "rdap_error": {
+      "source": "domain_rdap",
+      "error": "not_found"
+    },
+    "raw_whois": {
+      "source": "raw_whois",
+      "server": "whois.ati.tn",
+      "raw": "NIC Whois server for cTLDs : .tn , .تونس\nAll rights reserved\nCopyright \"Tunisian Internet Agency - https://whois.ati.tn\nSupported ccTLDs : .tn , .تونس\nSectorial domains : .com.tn,.ens.tn,.fin.tn,.gov.tn,.ind.tn,.intl.tn,.nat.tn,.net.tn,.org.tn,.info.tn,.perso.tn,.tourism.tn,.mincom.tn\n\nDomain name.........: comar.tn\nDetails:\nCreation date.......: 08-09-2009 00:00:00 GMT+1\nDomain status.......: Active\nRegistrar...........: ORANGE TUNISIE\n\nOwner Contact\nName................: COMAR\nFirst name..........: \nAddress.............: IMM COMAR AV BOURGUIBA\r\n1001 TUNIS\naddress2............: \nCity................: \nstateProvince.......: \nZip code............: \nCountry.............: \nPhone...............: 71331238\nFax.................: 71255469\nEmail...............: zied.bouattour@comar.com.tn\n\nAdministrativ contact\nName................: COMAR\nFirst name..........: \nAddress.............: IMM COMAR AV BOURGUIBA\r\n1001 TUNIS\naddress2............: \nCity................: \nstateProvince.......: \nZip code............: \nCountry.............: \nPhone...............: 71331238\nFax.................: 71255469\nEmail...............: zied.bouattour@comar.com.tn\n\nTechnical contact\nName................: COMAR\nFirst name..........: \nAddress.............: IMM COMAR AV BOURGUIBA\r\n1001 TUNIS\naddress2............: \nCity................: \nstateProvince.......: \nZip code............: \nCountry.............: \nPhone...............: 71331238\nFax.................: 71255469\nEmail...............: zied.bouattour@comar.com.tn\ndnssec..............: unsigned\n\nDNS servers\nName................: ns2.orange.tn.\nName................: ns1.orange.tn.",
+      "structured": {
+        "nic_whois_server_for_ctlds": ".tn , .تونس",
+        "copyright_\"tunisian_internet_agency___https": "//whois.ati.tn",
+        "supported_cctlds": ".tn , .تونس",
+        "sectorial_domains": ".com.tn,.ens.tn,.fin.tn,.gov.tn,.ind.tn,.intl.tn,.nat.tn,.net.tn,.org.tn,.info.tn,.perso.tn,.tourism.tn,.mincom.tn",
+        "domain_name.........": "comar.tn",
+        "details": "",
+        "creation_date.......": "08-09-2009 00:00:00 GMT+1",
+        "domain_status.......": "Active",
+        "registrar...........": "ORANGE TUNISIE",
+        "name................": [
+          "COMAR",
+          "COMAR",
+          "COMAR",
+          "ns2.orange.tn.",
+          "ns1.orange.tn."
+        ],
+        "first_name..........": [
+          "",
+          "",
+          ""
+        ],
+        "address.............": [
+          "IMM COMAR AV BOURGUIBA",
+          "IMM COMAR AV BOURGUIBA",
+          "IMM COMAR AV BOURGUIBA"
+        ],
+        "address2............": [
+          "",
+          "",
+          ""
+        ],
+        "city................": [
+          "",
+          "",
+          ""
+        ],
+        "stateprovince.......": [
+          "",
+          "",
+          ""
+        ],
+        "zip_code............": [
+          "",
+          "",
+          ""
+        ],
+        "country.............": [
+          "",
+          "",
+          ""
+        ],
+        "phone...............": [
+          "71331238",
+          "71331238",
+          "71331238"
+        ],
+        "fax.................": [
+          "71255469",
+          "71255469",
+          "71255469"
+        ],
+        "email...............": [
+          "zied.bouattour@comar.com.tn",
+          "zied.bouattour@comar.com.tn",
+          "zied.bouattour@comar.com.tn"
+        ],
+        "dnssec..............": "unsigned"
+      }
+    }
+  },
+  "dns": {
+    "A": [
+      "41.228.96.101"
+    ],
+    "AAAA": [],
+    "NS": [
+      "ns2.orange.tn.",
+      "ns1.orange.tn."
+    ],
+    "MX": [
+      "0 comar-tn.mail.protection.outlook.com."
+    ],
+    "TXT": [
+      "v=spf1 ip4:41.224.38.182 ip4:41.224.38.180 ip4:41.228.96.101 ip4:197.25.136.65 ip4:197.5.145.142 include:spf.protection.outlook.com -all",
+      "7ANGE894FIA465K0YYDZVSFORLSIWTYBKPL9C10X",
+      "google-site-verification=LrYH7SqPbkYaft1IXjQx39GCpJA0hZCZ_3PEOaamlrM",
+      "MS=ms91937368",
+      "MS=0D5F15C01C82C5DF459AD73558A962E5C97C4502"
+    ],
+    "CAA": [],
+    "SOA": [
+      "ns1.orange.tn. hosting.otn.orange.com. 2025042500 21600 7200 2592000 3456000"
+    ]
+  },
+  "email_security": {
+    "spf_found": true,
+    "spf_records": [
+      "v=spf1 ip4:41.224.38.182 ip4:41.224.38.180 ip4:41.228.96.101 ip4:197.25.136.65 ip4:197.5.145.142 include:spf.protection.outlook.com -all"
+    ],
+    "dmarc_found": true,
+    "dmarc_records": [
+      "v=DMARC1;p=reject;rua=mailto:srs@comar.tn;ruf=mailto:srs@comar.tn;fo=1"
+    ],
+    "caa_found": false,
+    "caa_records": []
+  },
+  "hunter": {
+    "status": "skipped",
+    "reason": "Set HUNTER_API_KEY environment variable"
+  },
+  "subdomains": [
+    "comar.tn",
+    "www.comar.tn"
+  ],
+  "ip_enrichment": {
+    "source": "dns_resolution_plus_ip_rdap_plus_shodan_internetdb",
+    "subdomains_checked": 2,
+    "ip_count": 1,
+    "ips": [
+      "41.228.96.101"
+    ],
+    "results": [
+      {
+        "subdomain": "comar.tn",
+        "resolved": true,
+        "ips": [
+          "41.228.96.101"
+        ],
+        "ip_enrichment": [
+          {
+            "ip": "41.228.96.101",
+            "rdap": {
+              "ip": "41.228.96.101",
+              "asn": "37492",
+              "asn_description": "Orange Tunisie - Orange Tunisie, TN",
+              "asn_country_code": "TN",
+              "network": {
+                "name": "ORG-ATIA2-AFRINIC",
+                "cidr": "41.228.64.0/18",
+                "country": "TN",
+                "start_address": "41.228.64.0",
+                "end_address": "41.228.127.255"
+              }
+            },
+            "shodan_internetdb": {
+              "ip": "41.228.96.101",
+              "found": true,
+              "ports": [
+                80,
+                443
+              ],
+              "cpes": [
+                "cpe:/a:apache:http_server",
+                "cpe:/a:php:php:7.3.33"
+              ],
+              "hostnames": [
+                "comar.tn"
+              ],
+              "vulns": [
+                "CVE-2022-37454",
+                "CVE-2022-31628",
+                "CVE-2022-4900",
+                "CVE-2013-2220",
+                "CVE-2024-25117",
+                "CVE-2017-8923",
+                "CVE-2024-3566",
+                "CVE-2022-31629",
+                "CVE-2007-3205",
+                "CVE-2024-5458"
+              ],
+              "tags": [
+                "eol-product"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "subdomain": "www.comar.tn",
+        "resolved": true,
+        "ips": [
+          "41.228.96.101"
+        ],
+        "ip_enrichment": [
+          {
+            "ip": "41.228.96.101",
+            "rdap": {
+              "ip": "41.228.96.101",
+              "asn": "37492",
+              "asn_description": "Orange Tunisie - Orange Tunisie, TN",
+              "asn_country_code": "TN",
+              "network": {
+                "name": "ORG-ATIA2-AFRINIC",
+                "cidr": "41.228.64.0/18",
+                "country": "TN",
+                "start_address": "41.228.64.0",
+                "end_address": "41.228.127.255"
+              }
+            },
+            "shodan_internetdb": {
+              "ip": "41.228.96.101",
+              "found": true,
+              "ports": [
+                80,
+                443
+              ],
+              "cpes": [
+                "cpe:/a:apache:http_server",
+                "cpe:/a:php:php:7.3.33"
+              ],
+              "hostnames": [
+                "comar.tn"
+              ],
+              "vulns": [
+                "CVE-2022-37454",
+                "CVE-2022-31628",
+                "CVE-2022-4900",
+                "CVE-2013-2220",
+                "CVE-2024-25117",
+                "CVE-2017-8923",
+                "CVE-2024-3566",
+                "CVE-2022-31629",
+                "CVE-2007-3205",
+                "CVE-2024-5458"
+              ],
+              "tags": [
+                "eol-product"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "url_corpus": {
+    "source": "merged_url_corpus",
+    "count": 5,
+    "urls": [
+      {
+        "source": "urlscan",
+        "url": "https://comar.tn/",
+        "mimetype": null,
+        "status": null,
+        "timestamp": "2026-05-28T14:46:07.285Z"
+      },
+      {
+        "source": "alienvault_otx",
+        "url": "http://comar.tn",
+        "mimetype": null,
+        "status": null,
+        "timestamp": "2026-06-04T16:40:58"
+      },
+      {
+        "source": "alienvault_otx",
+        "url": "https://comar.tn",
+        "mimetype": null,
+        "status": null,
+        "timestamp": "2026-06-04T16:40:58"
+      },
+      {
+        "source": "alienvault_otx",
+        "url": "https://www.comar.tn/fr",
+        "mimetype": null,
+        "status": null,
+        "timestamp": "2026-01-10T02:56:58"
+      },
+      {
+        "source": "alienvault_otx",
+        "url": "https://www.comar.tn/particuliers/sinistre/sinistre-automobile",
+        "mimetype": null,
+        "status": null,
+        "timestamp": "2025-11-08T22:37:27"
+      }
+    ]
+  },
+  "archive_analysis": {
+    "interesting_urls": [],
+    "documents": [],
+    "javascript_files": []
+  },
+  "httpx_tech": {
+    "status": "error",
+    "error": "Usage: httpx [OPTIONS] URL\n\nError: No such option '-u'.",
+    "tech": []
+  },
+  "whatweb_tech": {
+    "status": "error",
+    "error": "usage: whatweb [-h] target\nwhatweb: error: unrecognized arguments: --log-json=- --no-errors",
+    "tech": []
+  },
+  "technology_inventory": {
+    "source": "merged_technology_inventory",
+    "tech": []
+  },
+  "technology_cves": {
+    "source": "nvd",
+    "mode": "keyword_search_candidates_not_confirmed",
+    "results": []
+  },
+  "security_headers": {
+    "status": "ok",
+    "mode": "active_low_noise",
+    "final_url": "https://comar.tn/",
+    "headers": {
+      "content-security-policy": null,
+      "strict-transport-security": null,
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": null,
+      "permissions-policy": null
+    },
+    "missing": [
+      "content-security-policy",
+      "strict-transport-security",
+      "referrer-policy",
+      "permissions-policy"
+    ]
+  },
+  "google_dorks": [
+    {
+      "query": "site:comar.tn",
+      "url": "https://www.google.com/search?q=site%3Acomar.tn"
+    },
+    {
+      "query": "site:comar.tn ext:pdf",
+      "url": "https://www.google.com/search?q=site%3Acomar.tn+ext%3Apdf"
+    },
+    {
+      "query": "site:comar.tn inurl:login",
+      "url": "https://www.google.com/search?q=site%3Acomar.tn+inurl%3Alogin"
+    },
+    {
+      "query": "site:comar.tn inurl:admin",
+      "url": "https://www.google.com/search?q=site%3Acomar.tn+inurl%3Aadmin"
+    },
+    {
+      "query": "site:comar.tn filetype:xls OR filetype:xlsx",
+      "url": "https://www.google.com/search?q=site%3Acomar.tn+filetype%3Axls+OR+filetype%3Axlsx"
+    },
+    {
+      "query": "site:github.com comar.tn",
+      "url": "https://www.google.com/search?q=site%3Agithub.com+comar.tn"
+    }
+  ],
+  "sources": {
+    "crtsh": {
+      "source": "crt.sh",
+      "error": "HTTP 502",
+      "subdomains": []
+    },
+    "hackertarget": {
+      "source": "hackertarget",
+      "error": "API count exceeded - Increase Quota with Membership",
+      "subdomains": []
+    },
+    "urlscan": {
+      "source": "urlscan",
+      "subdomains": [
+        "comar.tn"
+      ],
+      "results": [
+        {
+          "source": "urlscan",
+          "url": "https://comar.tn/",
+          "domain": "comar.tn",
+          "ip": "41.228.96.101",
+          "asn": "AS37492",
+          "server": "Apache",
+          "title": "COMAR Assurances, Compagnie d'assurance Tunisie | Assurances Particulier",
+          "date": "2026-05-28T14:46:07.285Z"
+        }
+      ]
+    },
+    "wayback": {
+      "source": "wayback",
+      "urls": []
+    },
+    "commoncrawl": {
+      "source": "commoncrawl",
+      "urls": []
+    },
+    "alienvault_otx_urls": {
+      "source": "alienvault_otx",
+      "urls": [
+        {
+          "source": "alienvault_otx",
+          "url": "http://comar.tn",
+          "mimetype": null,
+          "status": null,
+          "timestamp": "2026-06-04T16:40:58"
+        },
+        {
+          "source": "alienvault_otx",
+          "url": "https://comar.tn",
+          "mimetype": null,
+          "status": null,
+          "timestamp": "2026-06-04T16:40:58"
+        },
+        {
+          "source": "alienvault_otx",
+          "url": "https://www.comar.tn/fr",
+          "mimetype": null,
+          "status": null,
+          "timestamp": "2026-01-10T02:56:58"
+        },
+        {
+          "source": "alienvault_otx",
+          "url": "https://www.comar.tn/particuliers/sinistre/sinistre-automobile",
+          "mimetype": null,
+          "status": null,
+          "timestamp": "2025-11-08T22:37:27"
+        },
+        {
+          "source": "alienvault_otx",
+          "url": "https://comar.tn/",
+          "mimetype": null,
+          "status": null,
+          "timestamp": "2025-07-18T14:45:08"
+        }
+      ]
+    },
+    "url_corpus_subdomains": {
+      "source": "url_corpus_hostname_extraction",
+      "subdomains": [
+        "comar.tn",
+        "www.comar.tn"
+      ]
+    }
+  },
+  "risk_findings": [
+    {
+      "severity": "low",
+      "title": "CAA not found",
+      "source": "dns",
+      "evidence": "No CAA record found"
+    },
+    {
+      "severity": "low",
+      "title": "Missing security header: content-security-policy",
+      "source": "http_headers",
+      "evidence": "https://comar.tn/"
+    },
+    {
+      "severity": "low",
+      "title": "Missing security header: strict-transport-security",
+      "source": "http_headers",
+      "evidence": "https://comar.tn/"
+    },
+    {
+      "severity": "low",
+      "title": "Missing security header: referrer-policy",
+      "source": "http_headers",
+      "evidence": "https://comar.tn/"
+    },
+    {
+      "severity": "low",
+      "title": "Missing security header: permissions-policy",
+      "source": "http_headers",
+      "evidence": "https://comar.tn/"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2022-37454",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2022-31628",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2022-4900",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2013-2220",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2024-25117",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2017-8923",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2024-3566",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2022-31629",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2007-3205",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2024-5458",
+      "source": "shodan_internetdb",
+      "evidence": "comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2022-37454",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2022-31628",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2022-4900",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2013-2220",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2024-25117",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2017-8923",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2024-3566",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2022-31629",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2007-3205",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    },
+    {
+      "severity": "high",
+      "title": "Shodan InternetDB vulnerability hint: CVE-2024-5458",
+      "source": "shodan_internetdb",
+      "evidence": "www.comar.tn -> 41.228.96.101"
+    }
+  ]
+}

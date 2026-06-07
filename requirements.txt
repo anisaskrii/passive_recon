@@ -1,0 +1,7 @@
+fastapi>=0.110.0
+uvicorn>=0.24.0
+requests>=2.31.0
+dnspython>=2.6.1
+ipwhois>=1.2.0
+python-whois>=0.9.4
+python-dotenv>=1.0.0
